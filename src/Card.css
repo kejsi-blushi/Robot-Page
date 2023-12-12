@@ -1,0 +1,46 @@
+.card {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+.card:hover {
+  background-color: #aaa9a9;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-component {
+  margin: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.searchbox > div {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  padding: 12px;
+  width: 200px;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 31, 87);
+  margin: 0px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color: #d5d7d9;
+}
+
+.body-div {
+  background-color: rgb(205, 218, 247);
+}
